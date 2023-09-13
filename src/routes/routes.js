@@ -3,6 +3,7 @@ import Main from "../layout/Main/Main";
 import Home from "../pages/Home/index";
 import Blogs from "../pages/Blogs/index";
 import Blog from "../pages/Blog";
+import ReadingHistory from "../pages/ReadingHistory";
 
 const routes = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const routes = createBrowserRouter([
       {
         path: "blogs/:id",
         element: <Blog />,
+      },
+      {
+        path: "reading-history",
+        element: <ReadingHistory/>,
       },
     ],
   },
