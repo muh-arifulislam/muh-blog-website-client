@@ -9,18 +9,18 @@ const Navbar = () => {
           MUH.
         </a>
         <ul className="lg:flex md:flex gap-[20px] text-md  hidden">
-           <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/blogs">Blogs</Link>
-            </li>
-            <li>
-              <Link to="/reading-history">Reading History</Link>
-            </li>
-            <li>
-              <Link to="/dashboard">Dashboard</Link>
-            </li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/blogs">Blogs</Link>
+          </li>
+          <li>
+            <Link to="/reading-history">Reading History</Link>
+          </li>
+          <li>
+            <Link to="/dashboard">Dashboard</Link>
+          </li>
         </ul>
         <a
           href="/subscribe"
@@ -30,9 +30,9 @@ const Navbar = () => {
         </a>
         <button className="lg:hidden md:hidden inline">X</button>
         {/* MOBILE VIEW  */}
-        <div className="lg:hidden md:hidden block px-[10px] bg-slate-300 absolute right-[2rem] bottom-[-160%]">
+        <div className="lg:hidden md:hidden hidden px-[10px] bg-slate-300 absolute right-[2rem] bottom-[-160%]">
           <ul className="">
-          <li>
+            <li>
               <Link to="/">Home</Link>
             </li>
             <li>
