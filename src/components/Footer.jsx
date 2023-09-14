@@ -5,10 +5,10 @@ const Footer = () => {
     <footer>
       <div className="p-[40px] border-b">
         <div className="flex flex-col justify-center items-center">
-          <h2 className="text-2xl font-extrabold mb-[10px] text-transparent bg-clip-text bg-gradient-to-br from-[#C41740] to-[#EA9C28]">
+          <h2 className="text-3xl font-extrabold mb-[10px] text-transparent bg-clip-text bg-gradient-to-br from-[#C41740] to-[#EA9C28] text-center">
             Personally Newsletter
           </h2>
-          <p className="text-lg font-semibold w-[40%] text-center">
+          <p className="text-lg font-semibold lg:w-[40%] md:w-[40%] w-full text-center">
             A bi-weekly newsletter of design inspiration, resources and anything
             related to career development.
           </p>
